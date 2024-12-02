@@ -1,4 +1,4 @@
-# BeautyCenter Websitemiz 
+# BeautyCenter Websitemiz Şeyma ve Nurcan
 
 Web programlama projesi,
 Kuaför İşletme Yönetim Uygulaması

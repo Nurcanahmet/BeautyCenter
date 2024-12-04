@@ -1,0 +1,30 @@
+﻿@{
+    ViewData["Title"] = "Randevu Al";
+}
+
+<div class="container mt-5">
+    <h2 class="text-center mb-4">Randevu Alma Sayfası</h2>
+    <form asp-controller="Randevu" asp-action="Index" method="post">
+        <div class="mb-3">
+            <label for="Name" class="form-label">Adınız</label>
+            <input type="text" class="form-control" id="Name" name="Name" placeholder="Adınızı giriniz" required>
+        </div>
+        <div class="mb-3">
+            <label for="Email" class="form-label">E-posta</label>
+            <input type="email" class="form-control" id="Email" name="Email" placeholder="E-posta adresinizi giriniz" required>
+        </div>
+        <div class="mb-3">
+            <label for="Date" class="form-label">Randevu Tarihi</label>
+            <input type="date" class="form-control" id="Date" name="Date" required>
+        </div>
+        <div class="mb-3">
+            <label for="Time" class="form-label">Randevu Saati</label>
+            <input type="time" class="form-control" id="Time" name="Time" required>
+        </div>
+        <div class="mb-3">
+            <label for="Notes" class="form-label">Notlar</label>
+            <textarea class="form-control" id="Notes" name="Notes" rows="3" placeholder="Eklemek istediğiniz notlar"></textarea>
+        </div>
+        <button type="submit" class="btn btn-primary w-100">Randevu Al</button>
+    </form>
+</div>

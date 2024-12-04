@@ -23,6 +23,13 @@ namespace BeautyCenter.Controllers
             return View();
         }
 
+
+        public IActionResult Hakkimizda()
+        {
+            return View();
+        }
+
+
         [ResponseCache(Duration = 0, Location = ResponseCacheLocation.None, NoStore = true)]
         public IActionResult Error()
         {

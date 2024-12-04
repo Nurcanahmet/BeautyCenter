@@ -16,3 +16,4 @@ C#
 SQL Server / PostgreSQL (Veritabanı)
 Entity Framework Core ORM
 Bootstrap, HTML5, CSS3, JavaScript, jQuery
+fork olusturma

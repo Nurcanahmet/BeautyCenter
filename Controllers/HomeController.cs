@@ -1,8 +1,8 @@
-using BeautyCenter.Models;
-using Microsoft.AspNetCore.Mvc;
 using System.Diagnostics;
+using Guzellik.Models;
+using Microsoft.AspNetCore.Mvc;
 
-namespace BeautyCenter.Controllers
+namespace Guzellik.Controllers
 {
     public class HomeController : Controller
     {
@@ -22,13 +22,6 @@ namespace BeautyCenter.Controllers
         {
             return View();
         }
-
-
-        public IActionResult Hakkimizda()
-        {
-            return View();
-        }
-
 
         [ResponseCache(Duration = 0, Location = ResponseCacheLocation.None, NoStore = true)]
         public IActionResult Error()
